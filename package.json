@@ -1,0 +1,24 @@
+{
+  "name": "mongo-walkthrough",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "jest */*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "env2": "^2.2.2",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "tape": "^5.5.3"
+  }
+}
